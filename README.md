@@ -25,4 +25,4 @@ Pour une compréhension optimale du projet, il est conseillé de lire l'ensemble
 
 ## Informations Supplémentaires
 
-Le projet a été réalisé lors de ma seconde année de licence Informatique à l'université Paris-Cité en collaboration avec Aymeric Letaconnoux/Shrek15, Ramzy Chibani et Kévin Chen et a été encadré par Christophe Gnaho, professeur de l'université.
+Le projet a été réalisé lors de ma seconde année de licence Informatique à l'université Paris-Cité en collaboration avec Aymeric/Shrek15, Ramzy Chibani et Kévin Chen et a été encadré par Christophe Gnaho, professeur de l'université.
