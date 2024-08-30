@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ApplicationISA</string>
+    <string name="nomAppli">Application ISA\n</string>
+    <string name="bouton_demarrer">Démarrer</string>
+    <string name="title_activity_choix_mode">ChoixModeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="texte_choix">Si vous réalisez l\'expérience dans un avion, \nil est conseillé d\'activer le mode vol.</string>
+    <string name="activer">Activer</string>
+    <string name="refuser">Refuser</string>
+    <string name="nombreUtilisateurs">Nombre d\'utilisateurs</string>
+    <string name="valeur_nombre_uti">0</string>
+    <string name="signal_sonore">Signal Sonore</string>
+    <string name="texte_parametrage">Paramétrages</string>
+    <string name="intervalle_mesures_texte">Intervalle de mesure</string>
+    <string name="heures_minutes">Heures : Minutes</string>
+    <string name="texte_intervalle_mesure">Intervalle de mesure</string>
+    <string name="echelle_mesure">Échelle de mesure</string>
+    <string name="bouton_suivant">Suivant</string>
+    <string name="textDuréeVol">Veuillez entrer la durée du vol</string>
+    <string name="texteAerodromeDepart">Aérodrome de départ</string>
+    <string name="texteAerodromeArrivee">Aérodrome d\'arrivée</string>
+    <string name="InfoBoutonSuivant">Suivant</string>
+    <string name="title_activity_test_parametres1">TestParametres1</string>
+    <string name="minutes_secondes">minutes secondes</string>
+    <string name="compteur">00:00</string>
+    <string name="bouton_dynamique">bouton</string>
+    <string name="bouton_stop">STOP</string>
+    <string name="textCode">Le code d\'accès à rentrer sur le module d\'exploitation est :\n</string>
+    <string name="Signal_texte">Signal en cours</string>
+    <string name="DureeMesure">Durée de mesure</string>
+</resources>

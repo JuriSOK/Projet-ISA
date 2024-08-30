@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/valeurNombreUti"
+        android:layout_width="338dp"
+        android:layout_height="122dp"
+        android:gravity="center"
+        android:text="@string/nomAppli"
+        android:textColor="@color/white"
+        android:textSize="0.3in"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <Button
+        android:id="@+id/boutonDemarrer"
+        android:layout_width="219dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#8BC34A"
+        android:text="@string/bouton_demarrer"
+        android:textColor="@color/white"
+        android:textSize="0.2in"
+        android:backgroundTintMode="@color/palegreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

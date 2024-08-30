@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.ParametresActivite">
+
+    <TextView
+        android:id="@+id/dureevol"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aeroportdepart"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dureevol" />
+
+    <TextView
+        android:id="@+id/aeroportarrivee"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aeroportdepart" />
+
+    <TextView
+        android:id="@+id/nbutilisateur"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aeroportarrivee" />
+
+    <TextView
+        android:id="@+id/intervallefinal"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nbutilisateur" />
+
+    <TextView
+        android:id="@+id/echellefinal"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intervallefinal"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <TextView
+        android:id="@+id/modesignal"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/echellefinal"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:text="Mode Signal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/modesignal"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:text="Echelle finale"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/echellefinal"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:text="Intervalle final"
+        app:layout_constraintEnd_toStartOf="@+id/intervallefinal"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        android:text="Nombre Utilisateur"
+        app:layout_constraintEnd_toStartOf="@+id/nbutilisateur"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="64dp"
+        android:text="Aeroport Arrivee"
+        app:layout_constraintEnd_toStartOf="@+id/aeroportarrivee"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:text="Aeroport Depart"
+        app:layout_constraintEnd_toStartOf="@+id/aeroportdepart"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:text="DureeVol"
+        app:layout_constraintEnd_toStartOf="@+id/dureevol"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ApplicationISA"
+        tools:targetApi="31" >
+        <activity
+            android:name=".activity.CodeActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.SonActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.RedActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.ChargeMentaleSeulActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".test.MesureTestMultiActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.MesureMultiActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activity.CompteurChargeMentaleActivity"
+            android:exported="false"
+            android:noHistory="true"/>
+        <activity
+            android:name=".test.ParametresActivite"
+            android:exported="false"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".activity.ChoixNomUtiActivity"
+            android:exported="false"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".activity.ParametresMesureActivity"
+            android:exported="false"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".activity.ParametresVolActivity"
+            android:exported="false"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".activity.ChoixModeActivity"
+            android:exported="false"
+            android:noHistory="true"
+            />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

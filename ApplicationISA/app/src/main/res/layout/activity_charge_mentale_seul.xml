@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".activity.ChargeMentaleSeulActivity">
+
+    <ImageButton
+        android:id="@+id/boutonMicro"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/micro_off" />
+
+    <TextView
+        android:id="@+id/mUtilisateurTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Nom de l'utilisateur"
+        android:textColor="@color/white"
+        android:textSize="0.2in"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mUtilisateurTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:backgroundTint="@color/white"
+        android:text="Stop"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
