@@ -7,11 +7,11 @@ Le projet a pour objectif d'appliquer cette méthode afin de permettre à un éq
 
 Pour une compréhension optimale du projet, il est conseillé de lire l'ensemble de la documentation fournie ci-dessous.
 
-## Téléchargement de l'outil de mesure (APK) sur téléphone (seulement Android)
+## Documentations
 
 - https://drive.google.com/drive/folders/104lxifzxg94F6F_jmP1LIEgE0Jp6idbk?usp=drive_link
 
-## Téléchargement de l'outil de mesure (APK) sur téléphone
+## Téléchargement de l'outil de mesure (APK) sur téléphone (seulement Android)
 
 - https://aymericl.fr/dl
 
